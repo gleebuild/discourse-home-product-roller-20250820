@@ -1,0 +1,92 @@
+// minimal, clean styles for the home product roller
+.home-product-roller {
+  margin: 0.5rem auto 0.25rem;
+  padding: 0.5rem 0.25rem;
+  max-width: 1100px;
+
+  .hpr-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+
+    .hpr-title {
+      margin: 0;
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    .hpr-meta {
+      color: var(--primary-medium);
+      font-size: 0.875rem;
+    }
+  }
+
+  .hpr-track {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr 2.5rem;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .hpr-nav {
+    border: 1px solid var(--primary-low);
+    background: var(--secondary);
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hpr-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .hpr-card {
+    display: block;
+    border: 1px solid var(--primary-low);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: var(--secondary);
+    aspect-ratio: 16 / 9;
+  }
+
+  .hpr-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  @media (max-width: 700px) {
+    .hpr-items {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+
+  .hpr-header {
+    .hpr-title:empty { display: none; }
+  }
+
+
+@media (max-width: 360px) {
+  .home-product-roller {
+    .hpr-track {
+      grid-template-columns: 2rem 1fr 2rem;
+      gap: 0.25rem;
+    }
+    .hpr-nav {
+      width: 2rem;
+      height: 2rem;
+      font-size: 1rem;
+    }
+  }
+}
