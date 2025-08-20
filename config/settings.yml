@@ -1,0 +1,127 @@
+plugins:
+  home_product_roller_enabled:
+    default: true
+    client: true
+  home_product_roller_title:
+    default: '推荐商品'
+    client: true
+  product_image_url_1:
+    default: ''
+    client: true
+  product_link_url_1:
+    default: ''
+    client: true
+  product_image_url_2:
+    default: ''
+    client: true
+  product_link_url_2:
+    default: ''
+    client: true
+  product_image_url_3:
+    default: ''
+    client: true
+  product_link_url_3:
+    default: ''
+    client: true
+  product_image_url_4:
+    default: ''
+    client: true
+  product_link_url_4:
+    default: ''
+    client: true
+  product_image_url_5:
+    default: ''
+    client: true
+  product_link_url_5:
+    default: ''
+    client: true
+  product_image_url_6:
+    default: ''
+    client: true
+  product_link_url_6:
+    default: ''
+    client: true
+  product_image_url_7:
+    default: ''
+    client: true
+  product_link_url_7:
+    default: ''
+    client: true
+  product_image_url_8:
+    default: ''
+    client: true
+  product_link_url_8:
+    default: ''
+    client: true
+  product_image_url_9:
+    default: ''
+    client: true
+  product_link_url_9:
+    default: ''
+    client: true
+  product_image_url_10:
+    default: ''
+    client: true
+  product_link_url_10:
+    default: ''
+    client: true
+  product_image_url_11:
+    default: ''
+    client: true
+  product_link_url_11:
+    default: ''
+    client: true
+  product_image_url_12:
+    default: ''
+    client: true
+  product_link_url_12:
+    default: ''
+    client: true
+  product_image_url_13:
+    default: ''
+    client: true
+  product_link_url_13:
+    default: ''
+    client: true
+  product_image_url_14:
+    default: ''
+    client: true
+  product_link_url_14:
+    default: ''
+    client: true
+  product_image_url_15:
+    default: ''
+    client: true
+  product_link_url_15:
+    default: ''
+    client: true
+  product_image_url_16:
+    default: ''
+    client: true
+  product_link_url_16:
+    default: ''
+    client: true
+  product_image_url_17:
+    default: ''
+    client: true
+  product_link_url_17:
+    default: ''
+    client: true
+  product_image_url_18:
+    default: ''
+    client: true
+  product_link_url_18:
+    default: ''
+    client: true
+  product_image_url_19:
+    default: ''
+    client: true
+  product_link_url_19:
+    default: ''
+    client: true
+  product_image_url_20:
+    default: ''
+    client: true
+  product_link_url_20:
+    default: ''
+    client: true
