@@ -1,0 +1,23 @@
+{{#if this.shouldShow}}
+<div class="home-product-roller" {{did-insert this.setup}} {{will-destroy this.teardown}}>
+  <div class="hpr-header">
+    {{#if this.siteSettings.home_product_roller_title}}
+    <h3 class="hpr-title">{{this.siteSettings.home_product_roller_title}}</h3>
+    {{/if}}
+</div>
+
+  <div class="hpr-track">
+    <button type="button" class="hpr-nav hpr-prev" {{on "click" this.prev}} aria-label="上一页">‹</button>
+
+    <div class="hpr-items" style={{this.gridStyle}}>
+      {{#each this.visibleItems as |p|}}
+        <a class="hpr-card" href={{p.link}} target="_blank" rel="noopener nofollow ugc">
+          <img class="hpr-image" src={{p.image}} alt="product" loading="lazy">
+        </a>
+      {{/each}}
+    </div>
+
+    <button type="button" class="hpr-nav hpr-next" {{on "click" this.next}} aria-label="下一页">›</button>
+  </div>
+</div>
+{{/if}}
