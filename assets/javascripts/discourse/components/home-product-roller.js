@@ -8,7 +8,7 @@ export default class HomeProductRoller extends Component {
   @service router;
 
   @tracked index = 0;
-  @tracked pageSize = 2; // mobile default
+  @tracked pageSize = 3; // mobile default
   _resizeHandler = null;
 
   get products() {
@@ -46,7 +46,7 @@ export default class HomeProductRoller extends Component {
 
   @action updatePageSize() {
     // >=1024px -> 4 per page else 2
-    const target = window?.innerWidth >= 1024 ? 4 : 2;
+    const target = window?.innerWidth >= 1024 ? 4 : 3;
     if (target !== this.pageSize) {
       this.pageSize = target;
       // snap index to page boundary to avoid mid-page shifts
