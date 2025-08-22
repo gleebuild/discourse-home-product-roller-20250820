@@ -48,8 +48,11 @@
   .hpr-prev { left: 0.25rem; }
   .hpr-next { right: 0.25rem; }
 
-  .hpr-items { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; }
-
+  .home-product-roller .hpr-items {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
   .hpr-card {
     display: block;
     border: 1px solid var(--primary-low);
