@@ -102,8 +102,8 @@
 
 
 @media (min-width: 1024px) {
-  .home-product-roller .hpr-items {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  body.desktop-view .home-product-roller .hpr-items {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
   }
 }
 
